@@ -95,5 +95,6 @@ return array(
 	*/
 
 	'cookie' => 'laravel_session',
+	'domain' => '',
 
 );

@@ -111,6 +111,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
+		'Jonob\HTML\HTMLServiceProvider',
 	),
 
 	/*
@@ -175,7 +176,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
+		'HTML' 			  => 'Jonob\HTML\HTMLFacade',
 	),
 
 );

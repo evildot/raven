@@ -2,6 +2,7 @@
 
 
 <body>
+	@include('common.heading')
     <div class="container">
     	@yield('content')
     </div>
